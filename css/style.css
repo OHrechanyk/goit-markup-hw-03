@@ -31,16 +31,21 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .section-title {
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
-  padding-right: auto;
-  /* outline: 2px solid tomato; */
+  padding-right: 15px;
+}
+.head {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .main-nav {
   display: flex;
@@ -58,19 +63,18 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .accent-web {
   color: #2196f3;
 }
 .accent-studio {
   color: #000000;
 }
+
 .site-nav,
 .item {
   color: var(--title-color);
   display: flex;
-  margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .site-nav .item:last-child {
   margin-right: 0;
@@ -78,6 +82,8 @@ body {
 
 .nav {
   color: var(--title-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .site-nav .nav:focus,
@@ -113,9 +119,10 @@ body {
   text-decoration: none;
 }
 
-/* contacts */
 .contacts {
   color: var(--text-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .contacts:hover,
 .contacts:focus {
@@ -128,12 +135,13 @@ body {
 .site-nav .item + .item {
   margin-left: 50px;
 }
+
 .mail {
   font-weight: 500;
-
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  margin-right: 50px;
 }
 .tel {
   font-weight: 500;
@@ -208,6 +216,9 @@ body {
 .feature-box {
   margin-right: 30px;
 }
+.box {
+  width: 270px;
+}
 
 /* Чем занимаемся */
 .section-work {
@@ -260,13 +271,14 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 30px;
 }
 .team-people {
   margin-right: 30px;
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--backgruond-color);
 }
 .team-people:last-child {
   margin-right: 0;
@@ -275,17 +287,22 @@ body {
 /* Footer */
 .bg-footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   padding: 0;
-
   margin-bottom: 20px;
 }
+
 .web-footer {
   color: #2196f3;
 }
 .studio-footer {
   color: var(--backgruond-color);
+}
+.pd-footer {
+  margin-bottom: 9px;
 }
 
 .adress {
@@ -293,7 +310,6 @@ body {
   text-decoration: none;
   font-style: normal;
   color: var(--backgruond-color);
-  margin-bottom: 9px;
 }
 .mail-tel {
   line-height: 1.7;
@@ -309,8 +325,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-bottom: 4px;
-  margin-top: 20px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -330,6 +344,16 @@ body {
   border-radius: 4px;
 }
 
+.cards-container {
+  width: 322px;
+  height: 70px;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .contacts-portfolio:hover,
 .contacts-portfolio:focus {
   background-color: var(--accent-color);
@@ -347,6 +371,7 @@ body {
 .text-color-button:hover,
 .text-color-button:focus {
   color: var(--backgruond-color);
+  color: white;
 }
 .cards-portfolio {
   display: flex;
