@@ -43,6 +43,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header-wrap {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
 .head {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -51,6 +56,11 @@ body {
   display: flex;
   align-items: center;
 }
+/* .line {
+  border: 1px solid #ececec;
+  padding: 0;
+  margin: auto;
+} */
 /* Logo  */
 .logo {
   font-family: Raleway, cursive;
@@ -62,6 +72,7 @@ body {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .accent-web {
@@ -128,10 +139,7 @@ body {
 .contacts:focus {
   color: var(--accent-color);
 }
-.contacts-header {
-  display: flex;
-  margin-left: auto;
-}
+
 .site-nav .item + .item {
   margin-left: 50px;
 }
@@ -310,6 +318,7 @@ body {
   text-decoration: none;
   font-style: normal;
   color: var(--backgruond-color);
+  margin-top: 20px;
 }
 .mail-tel {
   line-height: 1.7;
@@ -344,16 +353,6 @@ body {
   border-radius: 4px;
 }
 
-.cards-container {
-  width: 322px;
-  height: 70px;
-  margin-left: auto;
-  margin-bottom: auto;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .contacts-portfolio:hover,
 .contacts-portfolio:focus {
   background-color: var(--accent-color);
@@ -371,7 +370,20 @@ body {
 .text-color-button:hover,
 .text-color-button:focus {
   color: var(--backgruond-color);
-  color: white;
+}
+.text-button:hover,
+.text-button:focus {
+  color: var(--backgruond-color);
+}
+.cards-container {
+  width: 322px;
+  height: 70px;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .cards-portfolio {
   display: flex;
